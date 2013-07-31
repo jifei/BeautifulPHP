@@ -38,6 +38,7 @@ class Singleton
     public static function getInstance()
     {
         if (!(self::$_instance instanceof self)) {
+            //instanceof用于检测对象与类的从属关系,is_subclass_of对象所属类是否类的子类
             self::$_instance = new self();
         }
         return self::$_instance;
