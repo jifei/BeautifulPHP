@@ -8,8 +8,8 @@
  */
 class Tree
 {
-    private $original_list;//所有的
-    private $selected_keys;//选中的
+    private $original_list;//原始数据
+    private $selected_keys;//选中的key
     public  $pk;//pk
     public  $parent_key;//上级ID
     public  $children_key;//存放子孙的key名
