@@ -139,7 +139,7 @@ class Tree
 
 
     //输出选择功能的树结构
-    public function printSelecteTree($tree)
+    public function printSelectTree($tree)
     {
         if (is_array($tree) && count($tree) > 0) {
             echo '<ul>';
@@ -182,4 +182,4 @@ $tree->printTree($tree->buildTree());
 echo "------------------------------------------------------<br/>";
 $tree->printAllowedTree($tree->buildTree());
 echo "------------------------------------------------------<br/>";
-$tree->printSelecteTree($tree->buildTree());
+$tree->printSelectTree($tree->buildTree());
