@@ -29,7 +29,7 @@ class OnlineUser
      */
     public function addUser($uid)
     {
-        $this->redis->sAdd($this->prefix_key . date('hi'), $uid);
+        $this->redis->sAdd($this->prefix_key . date('Hi'), $uid);
     }
 
 
