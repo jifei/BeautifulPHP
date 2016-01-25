@@ -36,7 +36,7 @@ class OnlineUser
     /**
      * 获取在线用户数
      *
-     * @param $start_min  统计开始分钟 hi格式
+     * @param $start_min  统计开始分钟 Hi格式
      * @param $end_min    统计结束的分钟
      *
      * @return mixed
